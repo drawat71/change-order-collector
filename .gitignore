@@ -1,0 +1,18 @@
+# Credentials
+.env
+
+# Local runtime data: invoice store and webhook events
+data/store.json
+data/events.jsonl
+data/*.tmp
+*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
