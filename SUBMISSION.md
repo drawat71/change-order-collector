@@ -22,6 +22,6 @@ python3 -m app.demo
 
 To explore the interface in mock mode, run `python3 -m app.web` and open http://127.0.0.1:8000. For live sandbox invoicing, copy `.env.example` to `.env`, configure the sandbox values including `PAYPAL_WEBHOOK_ID`, enable Invoicing for the PayPal app, and run `python3 -m app.web --live-paypal`. Configure and test webhook verification separately; do not use production credentials or expose this prototype as a public service. See the README for details and limitations.
 
-Demo video: <to be added>
+Demo video: https://www.youtube.com/watch?v=8ZVZHdPauOA
 
 Repository: https://github.com/drawat71/change-order-collector
